@@ -3,6 +3,7 @@ import {HERO_CONTENT} from '../constants';
 // import profile_img from "../assets/kevinRushProfile.png";
 import Profile_img from "../assets/IMG_9105.JPG"
 import { motion } from "framer-motion";
+import  resume  from "../assets/Rahul Ghatge_CV.pdf";
 
 
 function hero() {
@@ -34,6 +35,15 @@ function hero() {
                        className='my-2 max-w-xl py-6 font-light tracking-tighter' >
                         {HERO_CONTENT}
                     </motion.p>
+                    <motion.div
+                      initial={{x:-100,opacity:0}}
+                      whileInView={{x:0,opacity:1}} 
+                      transition={{duration:0.5,delay:1}} 
+                    >
+                      <button className='border-white	border-2 rounded-full p-3' >
+                        <a href={resume} download={resume}>Download CV</a>
+                      </button>
+                    </motion.div>
                 </div>
             </div>
 
