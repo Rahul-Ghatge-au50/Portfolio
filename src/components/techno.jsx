@@ -27,7 +27,7 @@ function techno() {
             whileInView={{opacity:1,y:0}}
             initial={{y:-80,opacity:0}}
             transition={{duration:1.5}}
-            className='my-20 text-center text-4xl' >
+            className='my-20 text-center text-4xl  roboto-bold-italic' >
             Technologies
         </motion.h1>
 

@@ -19,8 +19,13 @@ function navbar () {
                     <a href="https://www.linkedin.com/in/rahul-ghatge-b10814214/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>                
                     <a href="https://github.com/Rahul-Ghatge-au50"  target="_blank" rel="noopener noreferrer" ><FaGithub/></a>
                     <a href="https://www.naukri.com/mnjuser/profile" target="_blank" rel="noopener noreferrer">
-                        <img src={naukri}  width={30} 
-                            height={30} className="bg-white"  alt="" />
+                        <img 
+                            src={naukri}  
+                            width={24} 
+                            height={24} 
+                            className="bg-white"  
+                            alt="" 
+                        />
                     </a>
                 </div>
             </nav>

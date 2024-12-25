@@ -17,7 +17,7 @@ function hero() {
                       whileInView={{x:0,opacity:1}}  
                       initial={{x:-100,opacity:0}}
                       transition={{duration:0.5,delay:0}}
-                      className="pb-12 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl"  >
+                      className="pb-12 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl  roboto-medium"  >
                         Rahul Ghatge
                     </motion.h1>
                     <motion.span 
@@ -40,7 +40,7 @@ function hero() {
                       whileInView={{x:0,opacity:1}} 
                       transition={{duration:0.5,delay:1}} 
                     >
-                      <button className='border-white	border-2 rounded-full p-3' >
+                      <button className='border-white	border-2 rounded-full p-3 mb-4' >
                         <a href={resume} download={resume}>Download CV</a>
                       </button>
                     </motion.div>
