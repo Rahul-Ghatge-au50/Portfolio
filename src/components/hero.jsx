@@ -3,7 +3,7 @@ import {HERO_CONTENT} from '../constants';
 // import profile_img from "../assets/kevinRushProfile.png";
 import Profile_img from "../assets/IMG_9105.JPG"
 import { motion } from "framer-motion";
-import  resume  from "../assets/Rahul Ghatge_CV New.pdf";
+import  resume  from "../assets/Rahul Ghatge_New_CV.pdf";
 
 
 function hero() {
