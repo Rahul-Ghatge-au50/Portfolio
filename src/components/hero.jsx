@@ -3,8 +3,15 @@ import {HERO_CONTENT} from '../constants';
 // import profile_img from "../assets/kevinRushProfile.png";
 import Profile_img from "../assets/IMG_9105.JPG"
 import { motion } from "framer-motion";
-import  resume  from "../assets/Rahul Ghatge_New_CV.pdf";
+import FileSaver from 'file-saver';
+import  New_CV  from "../assets/Rahul Ghatge_New_CV.pdf";
 
+
+const saveFile = () => {
+  FileSaver.saveAs(
+    New_CV,
+    "Rahul_Ghatge_CV"
+  )};
 
 function hero() {
   return (
@@ -40,8 +47,9 @@ function hero() {
                       whileInView={{x:0,opacity:1}} 
                       transition={{duration:0.5,delay:1}} 
                     >
-                      <button className='border-white	border-2 rounded-full p-3 mb-4' >
-                        <a href={resume} download={resume}>Download CV</a>
+                      <button className='border-white	border-2 rounded-full p-3 mb-4' onClick={saveFile}>
+                        {/* <a href={New_CV} download={New_CV}>Download CV</a> */}
+                        Download CV
                       </button>
                     </motion.div>
                 </div>
