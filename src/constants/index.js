@@ -10,14 +10,14 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "Feb 2024 - Apr 2025",
     role: "Full Stack Developer",
     company: "Aliter Business Solutions Pvt Ltd",
     description: `Worked on CRM project modules, contributing to both frontend and backend development and 
-    Developed RESTful APIs using Node.js to efficiently fetch and manage data from MongoDB.Built dynamic and user-friendly interfaces using Vue.js as the frontend framework.
+    Developed RESTful APIs using Node.js to efficiently fetch and manage data from MongoDB.Built dynamic and user-friendly interfaces using React.js as the frontend framework.
     Collaborated with cross-functional teams to ensure seamless integration between frontend and backend components and Optimized API performance and ensured data integrity across modules.
     Gained hands-on experience in implementing features that improved client workflow and usability.`,
-    technologies: ["Javascript", "Node.js", "Vue.js", "mongoDB"],
+    technologies: ["Javascript", "Node.js", "React.js", "MongoDB"],
   },
   // {
   //   year: "2022 - 2023",
