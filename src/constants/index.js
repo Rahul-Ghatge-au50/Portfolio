@@ -10,7 +10,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "Feb 2024 - Apr 2025",
+    year: "Feb 2024 - May 2025",
     role: "Full Stack Developer",
     company: "Aliter Business Solutions Pvt Ltd",
     description: `Worked on CRM project modules, contributing to both frontend and backend development and 

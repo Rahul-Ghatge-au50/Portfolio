@@ -4,7 +4,7 @@ import {HERO_CONTENT} from '../constants';
 import Profile_img from "../assets/IMG_9105.JPG"
 import { motion } from "framer-motion";
 import FileSaver from 'file-saver';
-import  New_CV  from "../assets/Rahul Ghatge_CV.pdf";
+import  New_CV  from "../assets/Rahul Ghatge_CV (2).pdf";
 
 
 const saveFile = () => {
