@@ -3,12 +3,12 @@ import { HERO_CONTENT, CONTACT } from "../constants";
 import Profile_img from "../assets/IMG_9105.JPG";
 import { motion } from "framer-motion";
 import FileSaver from "file-saver";
-import New_CV from "../assets/Rahul_Ghatge_CV.pdf";
+import New_CV from "../assets/Rahul_Ghatge_New_CV.pdf";
 import { FaDownload, FaArrowRight, FaServer, FaDatabase, FaLayerGroup } from "react-icons/fa";
 import { SiNestjs, SiPostgresql, SiNodedotjs } from "react-icons/si";
 
 const saveFile = () => {
-  FileSaver.saveAs(New_CV, "Rahul_Ghatge_Resume.pdf");
+  FileSaver.saveAs(New_CV, "Rahul_Ghatge_New_CV.pdf");
 };
 
 function Hero() {
